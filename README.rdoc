@@ -1,4 +1,5 @@
 == README
+{<img src="https://travis-ci.org/asnow73/depot.png?branch=feature/scaffold_product" alt="Build Status" />}[https://travis-ci.org/asnow73/depot]
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
