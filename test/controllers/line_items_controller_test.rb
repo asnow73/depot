@@ -56,7 +56,7 @@ class LineItemsControllerTest < ActionController::TestCase
     assert_response :success
 
     assert_select_jquery :html, '#cart' do
-      assert_select 'tr#current_item td', /Lorem Ipsum2/
+      assert_select 'tr#current_item td', /Lorem Ipsum/
     end
   end
 end

@@ -21,7 +21,7 @@ class OrdersControllerTest < ActionController::TestCase
     cart = FactoryGirl.create(:cart)
     product = FactoryGirl.create(:product)
     session[:cart_id] = cart.id
-    LineItem.create(cart: cart, product: product)
+    line_item = FactoryGirl.create(:line_item, product_id: product.id, cart_id: cart.id)
     get :new
     assert_response :success
   end

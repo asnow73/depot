@@ -40,7 +40,6 @@ class CartsControllerTest < ActionController::TestCase
   end
 
   test "should destroy cart" do
-
     # cart_id = @cart.id
     assert_difference('Cart.count', -1) do
       session[:cart_id] = @cart.id
