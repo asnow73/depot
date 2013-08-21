@@ -20,4 +20,17 @@ class ActiveSupport::TestCase
 
   # Add more helper methods to be used by all tests here...
   include FactoryGirl::Syntax::Methods
+
+  def login_as(user)
+    session[:user_id] = @user_log.id
+  end
+
+  def logout
+    session.delete :user_id
+  end
+
+  def setup
+    @user_log = FactoryGirl.create(:user)
+    login_as :user_log if defined? session
+  end
 end
