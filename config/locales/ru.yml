@@ -1,0 +1,63 @@
+ru:
+  thanks: "Спасибо за ваш заказ"
+
+  layouts:
+    application:
+      title: "Прагматичные книги"
+      home: "Домой"
+      questions: "Вопросы"
+      news: "Новости"
+      contact: "Контакты"
+
+  store:
+    index:
+      title_html: "Ваш прагматичный каталог"
+      add_html: "Добавить в корзину"
+
+  carts:
+    cart:
+      sure: "Вы уверены?"
+      title: "Ваша корзина"
+      empty: "Пустая корзина"
+      checkout: "Заказать"
+
+  number:
+    currency:
+      format:
+        unit: "$US"
+        precision: 2
+        separator: ","
+        delimiter: "."
+        format: "%n&nbsp;%u"
+
+  orders:
+    new:
+      legend: "Пожалуйста, заполните поля"
+    form:
+      name: "Имя"
+      address_html: "Адрес"
+      email: "E-mail"
+      pay_type: "Форма оплаты"
+      pay_prompt_html: "Выберите форму оплаты"
+      submit: "Заказать"
+
+  activerecord:
+    models:
+      order:        "Заказ"
+    attributes:
+      order:
+        address:    "Адрес"
+        name:       "Имя"
+        email:      "E-mail"
+        pay_type:   "Форма оплаты"
+    errors:
+      messages:
+        inclusion:  'Форма оплаты не выбрана'
+        blank: 'Поле не может быть пустым'
+
+  errors:
+    template:
+      body: "Возникли следующие проблемы"
+      header:
+        one: "1 ошибка %{model} при попытке сохранить заказ:"
+        other: "%{count} ошибок произошло при попытке сохранить заказ:"
