@@ -1,4 +1,8 @@
 == README
+{<img src="https://travis-ci.org/asnow73/depot.png?branch=feature/scaffold_product" alt="Build Status" />}[https://travis-ci.org/asnow73/depot]
+
+{<img src="https://coveralls.io/repos/asnow73/depot/badge.png?branch=develop" alt="Coverage Status" />}[https://coveralls.io/r/asnow73/depot?branch=develop]
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
